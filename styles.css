@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+}
+
+form{
+	width: 12%;
+	border: 1px solid black;
+	margin: 0px auto;
+	text-align: center;
+}
+
+input[type="text"]{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 80%;
+	height: 20px;
+}
+
+input[type="submit"]{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 50%;
+	height: 30px;
+	background-color: #999;
+	cursor: pointer;
+	color: white;
+}
+
+#numCapicuas, #numOrdenados{
+	width: 10%;
+	border: 1px solid black;
+	margin: 0px auto;
+	text-align: center;
+	margin-top: 20px;
+}
